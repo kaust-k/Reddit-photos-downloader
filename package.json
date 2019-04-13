@@ -1,0 +1,26 @@
+{
+  "name": "reddit_photos_telegram",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=* node app.js"
+  },
+  "engines": {
+    "node": "6.9.2",
+    "npm": "4.0.5"
+  },
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "debug": "2.6.3",
+    "inquirer": "3.0.6",
+    "moment": "2.18.1",
+    "mv": "2.1.1",
+    "nedb": "1.8.0",
+    "reddit-oauth-helper": "0.3.0",
+    "request": "2.81.0",
+    "request-promise": "4.2.0",
+    "snoowrap": "1.13.0",
+    "telegraf": "3.6.7",
+    "webshot": "0.18.0"
+  }
+}
